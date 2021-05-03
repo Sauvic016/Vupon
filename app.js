@@ -10,5 +10,7 @@ chrome.runtime.sendMessage(
 	{ command: "fetch", data: { domain: domain } },
 	(response) => {
 		//  response from the database (background.html > firebase.js)
+
+		console.log("response from Firebase", response);
 	}
 );
