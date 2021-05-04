@@ -29,13 +29,16 @@
 	padding: 3px 10px 3px 9px;
 	text-decoration: none;
 	cursor: pointer;
+	position: relative;
+	left: 77px;
+	bottom: 8px;
 }
 ._submit-overlay {
 	position: fixed;
 	width: 220px;
 	height: 220px;
 	top: 50%;
-	left: 50%;
+	left: 70%;
 	margin-left: -110px;
 	margin-top: -120px;
 	background: white;
@@ -61,6 +64,7 @@
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 	cursor: pointer;
+	margin-top: 6px;
 }
 
 .submit-coupon:hover {
@@ -149,8 +153,8 @@
 	position: fixed;
 	font-family: serif;
 	color: #383636;
-	top: 155px;
-	right: 15px;
+	top: 48px;
+	right: 25px;
 	text-align: center;
 	z-index: 9999999999;
 	display: flex;
