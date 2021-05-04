@@ -13,11 +13,27 @@
 	position: absolute;
 	right: 10px;
 }
-
+.close {
+	background: #444f54;
+	background-image: -webkit-linear-gradient(top, #444f54, #616c73);
+	background-image: -moz-linear-gradient(top, #444f54, #616c73);
+	background-image: -ms-linear-gradient(top, #444f54, #616c73);
+	background-image: -o-linear-gradient(top, #444f54, #616c73);
+	background-image: linear-gradient(to bottom, #444f54, #616c73);
+	-webkit-border-radius: 8;
+	-moz-border-radius: 8;
+	border-radius: 8px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 11px;
+	padding: 3px 10px 3px 9px;
+	text-decoration: none;
+	cursor: pointer;
+}
 ._submit-overlay {
 	position: fixed;
 	width: 220px;
-	height: 200px;
+	height: 220px;
 	top: 50%;
 	left: 50%;
 	margin-left: -110px;
@@ -133,7 +149,7 @@
 	position: fixed;
 	font-family: serif;
 	color: #383636;
-	top: 15px;
+	top: 155px;
 	right: 15px;
 	text-align: center;
 	z-index: 9999999999;
