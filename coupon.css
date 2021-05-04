@@ -1,3 +1,62 @@
+/*button styling*/
+._coupon__list > div {
+	padding: 5px 10px;
+	font-size: 10px;
+	background: black;
+	height: auto;
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+	line-height: 17px;
+	border-radius: 3px;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+}
+
+._submit-overlay {
+	position: fixed;
+	width: 220px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	margin-left: -110px;
+	margin-top: -120px;
+	background: white;
+	border: 2px solid;
+	z-index: 9999999999999;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.submit-coupon {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 10px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.submit-coupon:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+
 ._coupon__list h1 {
 	font-family: serif;
 	font-size: 26px;
@@ -30,7 +89,7 @@
 }
 
 ._coupon__list .code {
-	background-color: #ff8d00;
+	background: #ff8d00;
 	color: #fff;
 	padding: 5px;
 	display: inline-block;
